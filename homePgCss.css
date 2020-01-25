@@ -1,0 +1,72 @@
+.row 
+{
+	display: 					flex;
+	flex-flow: 				no wrap;
+}
+.item1
+{
+	height: 					200px;
+	width:						140%;
+	flex-grow: 				1;
+	text-align: 				center;
+}
+.item2
+{
+	flex-grow: 				1;
+	width: 						70%;
+}
+.item3
+{
+	flex-grow: 				1;
+	text-align: 				center;	
+}
+.msg
+{
+	text-align: 				center;
+}
+.column1
+{
+	display: 					flex;
+	flex-flow: 				column wrap;
+	width: 						70%;
+}
+.column2
+{
+	display: 					flex;
+	flex-flow: 				column wrap;
+	width: 						30%;
+}
+ .login
+{
+	padding: 					15px 15px 30px 15px ;
+	background-color: 	#ffffff; /* #D3D3D3; /*0000b3*/
+	color:  						white;
+	display: 					flex;
+	flex-flow: 				column;
+	text-align: 				center;	
+	align-items: 			center;
+}
+label
+{
+	display: 					flex;
+	padding: 					10px 5px 10px 30px; 						/*top right bottom left*/
+	border: 					1px solid black;
+	flex-direction: 			row;
+	justify-content: 		space-around;
+	width: 						85%;
+	float: 						center;
+	background-color: 	#ffffff;
+	color: 						black;	
+}
+.login_frame
+{
+	border: 					1px solid black;
+	padding: 					10px 5px 10px 30px; 						/*top right bottom left*/
+	background-color: 	#00008b;
+}
+.login_info{
+	border: 					1px solid black;
+	padding: 					10px 5px 10px 30px; 						/*top right bottom left*/
+	background-color: 	#D3D3D3;	
+	text-align: center;
+}
