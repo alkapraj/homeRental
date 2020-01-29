@@ -1,4 +1,14 @@
-
+ <html>
+	<head>	
+		<!-- Head tag contains the metadata defined by tags like title, meta, style, link, script. The METADATA is not Displayed -->
+		<title>Login Page - Cowboy Rental Properties</title>
+		<!-- Link for linking ext style sheets -->
+		<link	rel="stylesheet"	href="rentalPropCommonCss.css">
+		<link	rel="stylesheet"	href="loginPgCss.css">
+	</head>
+	<body>
+	
+<!-- RENTAL PROPERTIES HEADER-->
 	<div class="topnav">
 		 <img	src="Images/cowboy_logo.png"></img>
 		 <a		class="menu_item active"				href="homePage.php">Home</a>
@@ -16,7 +26,7 @@
 			 <a 	class="menu_item dropdown_item"	href="">Request Maintenance </a>
 		 </div>
 		 <a 			class="menu_item" 			href="">Contact Us</a>
-		 <a 			id="logout" 							class="menu_item"		href="logout.php">
+		 <a 			id="logout" 							class="menu_item"		href="">
 			<img 	src="Images/Login_logo" 	class="login_logo"></img>
 		 </a>
 	</div>		
@@ -32,10 +42,10 @@
 				<br><br>
 				<label 	class="bold">Password:<input 	name="password" 	type="password" 	value=""/></label>
 				<br><br>
-				<a 		href="" 						class="white">Forgot Password?</a><br><br>
-				<a 		href="createAcc.html" class="white">Create an Account?</a><br><br>
-				<input class="bold" 				type="submit" 		value="Log in"/><br>
-				<input type="hidden" 				name="filename" 	value="<?php  session_start(); if(isset($_SESSION['direct_to_filename'])) echo $_SESSION['direct_to_filename'];?>"/>
+				<a 		href="" 				class="white">Forgot Password?</a><br><br>
+				<a 		href="" 				class="white">Create an Account?</a><br><br>
+				<input class="bold" 		type="submit" 		value="Log in"/><br>
+				<input type="hidden" 		name="filename" 	value="<?php  session_start(); if(isset($_SESSION['direct_to_filename'])) echo $_SESSION['direct_to_filename'];?>"/>
 				<br><br>					
 			</form>
 			<div></div>
