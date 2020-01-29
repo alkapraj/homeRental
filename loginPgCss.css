@@ -22,7 +22,7 @@
 label
 {
 	display: 					flex;
-	padding: 					10px 25px 10px 30px; 						/*top right bottom left*/	
+	padding: 					10px 30px 10px 30px; 						/*top right bottom left*/	
 	border-style: 			outset;
 	border-radius: 		5px;	
 	flex-direction: 			row;
@@ -39,19 +39,20 @@ label
 	background-color: 	#696969; 											/*#00008b;*/
 	border-style: 			outset;
 	border-radius: 		5px;
+	box-shadow: 			4px 4px 5px black;
 }
 .white
 {
 		color: 					white;
 }
-
 input[type=submit] 
 {
-  background-color: #f2f2f2;
-  color: 					black;
-  padding: 				14px 20px;
-  margin: 					8px 0;
-  border: 					none;
-  border-radius: 		4px;
-  cursor: 					pointer;
+  background-color: 	#f2f2f2;
+  color: 						black;
+  padding: 					10px 10px;
+  margin: 						8px 0;
+  border-radius: 			4px;
+  cursor: 						pointer;
+  box-shadow: 				4px 4px 5px black;
+  font-size: 			   		18px;  
 }

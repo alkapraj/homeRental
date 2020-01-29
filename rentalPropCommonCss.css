@@ -1,66 +1,89 @@
 body 
 {
-  margin: 						0;
-  font-family: 				vardana, Helvetica, sans-serif;
-  background-color: 	#ffffff;  										/* #D3D3D3; /* #f2f2f2;*/
+  margin:             0;
+  font-family:        vardana, Helvetica, sans-serif;
+  background-color:   #ffffff;                      /* #D3D3D3; /* #f2f2f2;*/
+  font-size:          16px;
 }
 .topnav 
 {
-  overflow: 					hidden;
-  background-color:  	#990000;										/*brown*/
-  height: 						35%;
-  display: 					flex;
-  justify-content: 		space-between;
+  overflow:           hidden;
+  background-color:   #990000;                    /*brown*/
+  height:               25%;
+  display:          flex;
+  justify-content:    space-between;
+  padding:          30px 5px 5px 5px; 
+  border-radius:      15px;
 }
-.topnav .menu_item, .topnav > div
-{	
-  color: 						#f2f2f2;
-  padding: 					14px 16px;
-  text-decoration: 		none;
-  bottom: 					0;  	
-  align-self: 					flex-start;
-  width: 						100%;
+.menu_item, .topnav > div
+{ 
+  color:            #f2f2f2;
+  text-decoration:    none;
+  bottom:           0;    
+  align-self:           flex-start;
+  width:            100%;
+}
+.menu_item
+{
+  padding:          5px 5px 5px 5px;
 }
 .topnav img
 {
-	float: 						left;
+  float:            left;
+}
+#logo_img
+{
+  height:           90%;
 }
 .topnav a:hover 
 {
-  background-color: 	#ddd;
-  color: 						black;
+  background-color:   #ddd;
+  color:            black;
+  text-transform:     uppercase;
+  text-shadow:      1px 1px black;
+  font-weight:      bold;  
+  /*transform:      scale(0.5, 0.5);*/
 }
 .topnav a.active 
 {
-  background-color:  	#808080; 									/*Gray*/
-  color: 						white; 
+  background-color:   #808080;                  /*Gray*/
+  color:            white; 
 }
 .login_logo
 {
-	height: 					30%;
+  height:           30%;
 }
 .gallery
 {
-	width: 						100%;
+  width:            80%;
+  height:           140%;
 }
 .dropdown
 {
-		align-self: 			flex-start;
-		display: 				flex;
-		flex-direction: 		column;
-		height: 				35%;
+  align-self:         flex-start;
+  display:          flex;
+  flex-direction:       column;
+  height:           35%;
 }
 .dropdown_item
 {
-  background-color: 	#ddd;
-  color: 						black;
+  background-color:   #ddd;
+  color:            black;
+  padding-top:      10px;
 }
 .dropdown .dropdown_item
 {
-	display: 					none;
+  display:          none;
 }
-
 .dropdown:hover .dropdown_item
 {
-	display: 					block;
+  display:          block;
+}
+.bold
+{
+  font-weight:      bold;  
+}
+.italic
+{
+  font-style:         italic;
 }

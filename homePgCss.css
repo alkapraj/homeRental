@@ -65,8 +65,7 @@ label
 	background-color: 	#00008b;
 }
 .login_info{
-	border: 					1px solid black;
 	padding: 					10px 5px 10px 30px; 						/*top right bottom left*/
 	background-color: 	#D3D3D3;	
-	text-align: center;
+	text-align: 				center;
 }
